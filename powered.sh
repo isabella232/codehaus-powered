@@ -54,3 +54,35 @@ echo "</body>"
 
 } > index.html
 
+{
+
+cat powered.txt | while read LINE
+do
+  TAG=$(expr "$LINE" : '\([A-Z]*\):')
+  ARG=$(expr "$LINE" : "$TAG: *\(.*\) *")
+
+  case "$TAG" in
+    HREF* )   
+     HREF=$ARG
+     ;;
+
+    IMAGE* )  
+     IMAGE=$ARG
+     ;;
+
+    NAME* )  
+     NAME=$ARG
+     echo "h1. [$NAME|$HREF]"
+     echo "!http://svn.codehaus.org/jetty/powered/images/$IMAGE!"
+     echo
+     ;;
+
+    *) echo $LINE
+     ;;
+  esac
+
+done
+
+} > index.wiki
+
+
