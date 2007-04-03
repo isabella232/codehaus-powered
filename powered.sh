@@ -64,6 +64,7 @@ do
   case "$TAG" in
     HREF* )   
      HREF=$ARG
+     IMAGE=
      ;;
 
     IMAGE* )  
@@ -73,7 +74,7 @@ do
     NAME* )  
      NAME=$ARG
      echo "h1. [$NAME|$HREF]"
-     echo "!http://svn.codehaus.org/jetty/powered/images/$IMAGE!"
+     [ x$IMAGE != x ] && echo "!http://svn.codehaus.org/jetty/powered/images/$IMAGE!"
      echo
      ;;
 

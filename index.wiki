@@ -10,7 +10,6 @@ h1. [abaXX|http://www.abaxx.com/elements]
 abaXX elements is a full-fledged portal-building software including easy-to-use MVC support, a Portlet framework, an event model, a Portlet deployment model, a Struts compatibility option, a tag library, a set of web widgets (trees etc.), a ready-to-run 'vanilla' base portal, a rather amazing live web portal configurator ('PortalBuilder'), and plenty of professional documentation. The developer licence is free.
 
 h1. [Able|http://blogs.opensymphony.com/plightbo/2006/08/project_able_a_complete_java_w.html]
-!http://svn.codehaus.org/jetty/powered/images/abaXX.gif!
 
 Project Able is a full Java-based web development stack designed to make web development painless. In a sense, it is an attempt to bring together quality opensource tools in one cohesive stack, similar to what Rails has done for Ruby, while also encouraging common practices I've used in software engineering for a long time.
 
@@ -207,7 +206,6 @@ h1. [Helma|http://helma.org/]
 Helma (also called Helma object publisher, or Hop for short) is a scriptable open source web application server written in Java.
 
 h1. [HiveBoard|http://hiveboard.sourceforge.net/website/web/index.html]
-!http://svn.codehaus.org/jetty/powered/images/helmalogo.gif!
 
 HiveBoard is online shared whiteboard conferencing system. HiveBoard is developed in Java and is open source. It has a server application based on Jetty Servlet Container (in embedded mode) and a rich client application that connects to the server and can access shared whiteboards. The use of Jetty embedded server has enabled a quick (5') and easy setup of the HiveBoard server.
 
@@ -415,7 +413,6 @@ h1. [Open For Business|http://www.ofbiz.org]
 An open source enterprise automation software project. The goal of the project is to create an open source application framework, application components, and suite of enterprise applications.
 
 h1. [OpenReports|http://oreports.sourceforge.net/]
-!http://svn.codehaus.org/jetty/powered/images/ofbiz.jpg!
 
 OpenReports is a complete reporting solution that provides the ability for users to view dynamically created PDF reports in a browser.
 
@@ -509,7 +506,6 @@ h1. [rostrvm|http://www.rostrvm.com/?jetty]
 Rostrvm Solutions Limited is a software company. We design, develop and support the rostrvm suite of applications that make call centre technologies and contact management processes work efficiently and effectively. Jetty is embedded in the rostrvm product and provides access to web based real-time management information reports. It is also used to drive call centre agent wallboards that provide high impact operational data.
 
 h1. [RDF Server|http://www-uk.hpl.hp.com/people/afs/Joseki/doc/JosekiSever.html]
-!http://svn.codehaus.org/jetty/powered/images/rostrvmweblogo.gif!
 
 The Joseki server provides a way of publishes RDF data and providing access via RDQL.&nbsp;
 
@@ -529,12 +525,10 @@ h1. [SeaTrafCell|http://www.seatrafcell.com/]
 SeaTrafCell displays traffic information from the puget sound area (Seattle) on Java (J2ME) enabled cellphones.
 
 h1. [Selenium-RC|http://www.openqa.org/selenium-rc/]
-!http://svn.codehaus.org/jetty/powered/images/seatrafcell.jpg!
 
 Selenium Remote Control is a test tool that allows you to write automated web application UI tests in any programming language against any HTTP website using any mainstream JavaScript-enabled browser.
 
 h1. [Server Side Javascript|http://www.bluishcoder.co.nz/2006/05/server-side-javascript.html]
-!http://svn.codehaus.org/jetty/powered/images/seatrafcell.jpg!
 
 Runs Jetty 6 in javascript on the server side using Rhino as the interpreter.
 
@@ -544,7 +538,6 @@ h1. [Servlets.com|http://www.servlets.com]
 Popular portal site for all things servlet programming related.
 
 h1. [Servlet Viewer|http://www.source-code.biz/ServletViewer/]
-!http://svn.codehaus.org/jetty/powered/images/servlets.jpg!
 
 ServletViewer is a Java program that can load a Java servlet and display its output. It uses an embedded HTTP server (Jetty) and an embedded web browser (SWT Browser widget). ServletViewer can be used to run a Java servlet web application as a stand-alone program on the local computer.
 
